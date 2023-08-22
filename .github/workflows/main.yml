@@ -1,0 +1,18 @@
+on:
+  push:
+    branches:
+      - master
+
+
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-lastest
+
+    steps:
+      - name: 'printing folder contents'
+        run: pwd
+
+      
