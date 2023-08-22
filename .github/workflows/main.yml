@@ -12,8 +12,7 @@ jobs:
     runs-on: ubuntu-lastest
 
     steps:
-      - name: 'Testing Github action'
-        run: pwd
+      - name: 'printing folder contents'
+        run: ls
 
-      - name: 'Testing printing'
-        run: echo Eyad        
+      
